@@ -23,8 +23,8 @@ const capabilities = [
   },
   {
     icon: Radar,
-    title: "Cobertura de ±10 metros",
-    text: "Diseñaremos y probaremos el sistema para detectar presencia humana a una distancia máxima de 10 metros.",
+    title: "Cobertura de ±20 metros",
+    text: "Diseñaremos y probaremos el sistema para detectar presencia humana a una distancia máxima de 20 metros.",
   },
   {
     icon: Network,
@@ -90,7 +90,7 @@ export function HomePage() {
       <section className="border-b border-black/10 bg-[#121212] text-white">
         <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-y divide-white/10 px-5 sm:grid-cols-4 sm:divide-y-0 lg:px-8">
           {[
-            ["≤ 10 m", "Rango objetivo"],
+            ["≤ 20 m", "Rango objetivo"],
             ["360°", "Cobertura escalable"],
             ["24/7", "Monitoreo continuo"],
             ["0", "Cámaras utilizadas"],
