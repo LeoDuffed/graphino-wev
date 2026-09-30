@@ -5,7 +5,6 @@ import {
   BatteryCharging,
   Bot,
   CheckCircle2,
-  CircuitBoard,
   Clock3,
   Factory,
   Radar,

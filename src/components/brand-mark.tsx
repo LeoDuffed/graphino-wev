@@ -1,3 +1,15 @@
 export function BrandMark() {
-  return <p className="font-bold text-2xl">GraphINO</p>
+  return (
+    <span className="inline-flex items-center gap-2.5 whitespace-nowrap">
+      <img
+        src="/graphino-symbol.png"
+        alt=""
+        aria-hidden="true"
+        className="h-10 w-auto shrink-0"
+        width="50"
+        height="40"
+      />
+      <span className="text-2xl font-bold leading-none tracking-tight">GraphINO</span>
+    </span>
+  )
 }
